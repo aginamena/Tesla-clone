@@ -1,0 +1,30 @@
+#burgerNav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 246px;
+  padding: 24px;
+  background-color: white;
+  text-align: right;
+  height: 100vh;
+  list-style: none;
+  z-index: 10;
+  /* transition: transform 1s ease; */
+  display: none;
+}
+#burgerNav > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  font-weight: 600;
+  text-align: left;
+}
+
+#burgerNav li,
+.fa-times {
+  cursor: pointer;
+}
+#burgerNav li:hover {
+  border-bottom: 1px solid gray;
+}

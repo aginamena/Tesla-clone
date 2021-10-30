@@ -1,0 +1,5 @@
+#home {
+  height: 100vh;
+  /* we want the navigation bar to have a higher stacking order */
+  z-index: -1;
+}
